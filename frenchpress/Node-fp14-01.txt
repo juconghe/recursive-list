@@ -1,0 +1,7 @@
+FrenchPress 1.4 feedback for Node.java
+
+These methods are declared public but never called outside their own class:
+     setInfo (14)
+If you meant these to be helper methods used only within this class,
+they should be declared private instead.
+
